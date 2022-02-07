@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search for a vehicle</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/images/logo.jpg" alt="logo" title="vidra.in.ua">
+            <br>
+        </div>
+        <nav class="forms">
+            <a href="../index.html">HOME</a>
+            <a href="./registration.html">Create an account</a>
+            <a href="./authorization.html">Authorization</a>
+            <a href="./search.html">Find a vehicle</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>
+            Search for a vehicle
+        </h1>
+        <form action="https://fom.in.ua/echo" method="get">
+            <div class="car_type">
+                <input type="checkbox" id="sdn" name="car_type1" value="sedan">
+                <label for="sdn">
+                    Sedan
+                </label>
+                <input type="checkbox" id="bs" name="car_type2" value="bus">
+                <label for="bs">
+                    Bus
+                </label>
+                <input type="checkbox" id="trk" name="car_type3" value="truck">
+                <label for="trk">
+                    Truck
+                </label>
+                <br>
+            </div>
+            <div class="car_condition">
+                <input type="checkbox" id="new" name="condition2" value="new">
+                <label for="new">
+                    NEW
+                </label>
+                <input type="checkbox" id="zpd" name="condition3" value="z_pid_dida">
+                <label for="zpd">
+                    Z pid dida
+                </label>
+                <input type="checkbox" id="btk" name="condition4" value="bytok">
+                <label for="btk">
+                    Bytok
+                </label>
+                <br>
+            </div>
+            <div class="car_model">
+                <label for="mdl">
+                    Model:
+                </label>
+                <br>
+                <select id="mdl" name="model">
+                    <option value="all" selected>
+                        All
+                    </option>
+                    <option value="tavria_nova">
+                        Tavria nova
+                    </option>
+                    <option value="zaporozhets">
+                        Zaporozhets
+                    </option>
+                    <option value="daewoo">
+                        Daewoo
+                    </option>
+                    <option value="kraz">
+                        Kraz
+                    </option>
+                    <option value="luaz">
+                        Luaz
+                    </option>
+                    <option value="rafik">
+                        Rafik
+                    </option>
+                </select>
+                <br>
+            </div>
+            <div class="prod_country">
+                <label for="pcntr">
+                    Producing country:
+                </label>
+                <br>
+                <select id="pcntr" name="producing_country">
+                    <option value="all" selected>
+                        All
+                    </option>
+                    <option value="ua">
+                        Ukraine
+                    </option>
+                    <option value="us">
+                        United States of America
+                    </option>
+                    <option value="de">
+                        Germany
+                    </option>
+                </select>
+                <br>
+            </div>
+            <div class="select_color">
+                <label for="ccolor">
+                    Select color
+                </label>
+                <input type="color" id="ccolor" name="color" value="#556B2F">
+                <br>
+            </div>
+            <div class="car_manufacture_year">
+                <label for="yr">
+                    Year:
+                </label>
+                <br>
+                <select id="yr" name="year_of_manufacture">
+                    <option disabled selected>
+                        From
+                    </option>
+                    <option value="-">
+                        -
+                    </option>
+                    <option value="2021">
+                        2021
+                    </option>
+                    <option value="2020">
+                        2020
+                    </option>
+                    <option value="2019">
+                        2019
+                    </option>
+                    <option value="2018">
+                        2018
+                    </option>
+                    <option value="2017">
+                        2017
+                    </option>
+                    <option value="2016">
+                        2016
+                    </option>
+                    <option value="2015">
+                        2015
+                    </option>
+                    <option value="2014">
+                        2014
+                    </option>
+                    <option value="2013">
+                        2013
+                    </option>
+                    <option value="2012">
+                        2012
+                    </option>
+                    <option value="2011">
+                        2011
+                    </option>
+                    <option value="2010">
+                        2010
+                    </option>
+                    <option value="2009">
+                        2009
+                    </option>
+                    <option value="2008">
+                        2008
+                    </option>
+                    <option value="2007">
+                        2007
+                    </option>
+                </select>
+                <span>
+                    -
+                </span>
+                <select name="year_of_manufacture">
+                    <option disabled selected>
+                        To
+                    </option>
+                    <option value="-">
+                        -
+                    </option>
+                    <option value="2022">
+                        2022
+                    </option>
+                    <option value="2021">
+                        2021
+                    </option>
+                    <option value="2020">
+                        2020
+                    </option>
+                    <option value="2019">
+                        2019
+                    </option>
+                    <option value="2018">
+                        2018
+                    </option>
+                    <option value="2017">
+                        2017
+                    </option>
+                    <option value="2016">
+                        2016
+                    </option>
+                    <option value="2015">
+                        2015
+                    </option>
+                    <option value="2014">
+                        2014
+                    </option>
+                    <option value="2013">
+                        2013
+                    </option>
+                    <option value="2012">
+                        2012
+                    </option>
+                    <option value="2011">
+                        2011
+                    </option>
+                    <option value="2010">
+                        2010
+                    </option>
+                    <option value="2009">
+                        2009
+                    </option>
+                    <option value="2008">
+                        2008
+                    </option>
+                </select>
+                <br>
+            </div>
+            <div class="car_price">
+                <label for="prc">
+                    Price: &euro;
+                </label>
+                <br>
+                <input type="number" id="prc" name="price" min="100" max="50000" placeholder="From" step="50">
+                <span>
+                    -
+                </span>
+                <input type="number" name="price" min="200" max="50100" placeholder="To" step="50">
+                <br>
+            </div>
+            <div class="gearbox_type">
+                <input type="checkbox" id="agbx" name="gearbox_type1" value="automatic">
+                <label for="agbx">
+                    Automatic gearbox
+                </label>
+                <input type="checkbox" id="mgbx" name="gearbox_type2" value="manual">
+                <label for="mgbx">
+                    Manual gearbox
+                </label>
+                <br>
+            </div>
+            <div class="fuel_type">
+                <input type="checkbox" id="fgsln" name="fuel_type1" value="gasoline">
+                <label for="fgsln">
+                    Gasoline
+                </label>
+                <input type="checkbox" id="fdsl" name="fuel_type2" value="diesel">
+                <label for="fdsl">
+                    Diesel
+                </label>
+                <input type="checkbox" id="fgs" name="fuel_type3" value="gas">
+                <label for="fgs">
+                    Gas
+                </label>
+                <br>
+            </div>
+            <div class="comfort">
+                <input type="checkbox" id="ac" name="comfort1" value="air_conditioner">
+                <label for="ac">
+                    Air conditioner
+                </label>
+                <input type="checkbox" id="cc" name="comfort2" value="climate_control">
+                <label for="cc">
+                    Climate control
+                </label>
+                <input type="checkbox" id="li" name="comfort3" value="leather_interior">
+                <label for="li">
+                    Leather interior
+                </label>
+                <br>
+            </div>
+            <div class="car_features">
+                <input type="radio" id="twh" name="wheels_quantity" value="three_wheels" required>
+                <label for="twh">
+                    Three wheels
+                </label>
+                <input type="radio" id="fwh" name="wheels_quantity" value="four_wheels" required>
+                <label for="fwh">
+                    Four wheels
+                </label>
+                <input type="radio" id="wwh" name="wheels_quantity" value="without_wheels" required>
+                <label for="wwh">
+                    Without wheels
+                </label>
+                <br>
+            </div>
+            <div class="search button">
+                <input type="submit" value="Search">
+            </div>
+        </form>
+        <hr>
+    </main>
+    <footer>
+        <h3>Contacts:</h3>
+        <div class="contacts">
+            <ul>
+                <li>
+                    <a href="mailto:vidra@in.ua">vidra@in.ua</a>
+                </li>
+                <li>
+                    <a href="tel:380757995544">+38(075)799-55-44</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

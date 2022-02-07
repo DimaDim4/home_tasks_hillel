@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>authorization</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/images/logo.jpg" alt="logo" title="vidra.in.ua">
+            <br>
+        </div>
+        <nav class="forms">
+            <a href="../index.html">HOME</a>
+            <a href="./registration.html">Create an account</a>
+            <a href="./authorization.html">Authorization</a>
+            <a href="./search.html">Find a vehicle</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h1>
+            Authorization
+        </h1>
+        <form action="https://fom.in.ua/echo" method="post">
+            <div class="auth_email">
+                <label for="mail">
+                    Email address:
+                </label>
+                <br>
+                <input type="email" id="mail" name="email" placeholder="enter email" required>
+            </div>
+            <div class="auth_password">
+                <label for="pass">
+                    Password:
+                </label>
+                <br>
+                <input type="password" id="pass" name="password" placeholder="enter password" required>
+            </div>
+            <div class="auth_mpasschbx">
+                <label for="rmb">
+                    Memorize password
+                </label>
+                <input type="checkbox" id="rmb" name="prefilled_password" value="prefilled_password">
+                <br>
+            </div>
+            <div class="auth_buttons">
+                <button>Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        <hr>
+    </main>
+    <footer>
+        <h3>Contacts:</h3>
+        <div class="contacts">
+            <ul>
+                <li>
+                    <a href="mailto:vidra@in.ua">vidra@in.ua</a>
+                </li>
+                <li>
+                    <a href="tel:380757995544">+38(075)799-55-44</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
