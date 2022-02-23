@@ -1,0 +1,203 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.64em;
+    color: #000000;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.bg-primary {
+    background-color: #EEEFF1;
+}
+
+.bg-accent {
+    background-color: #34547A;
+}
+
+header {
+   width: 100%; 
+}
+
+header nav {
+    padding-top: 79px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 42px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+header nav ul li a.active {
+    color: #34547A;
+}
+
+.promo {
+    padding-top: 162px;
+    padding-bottom: 141px;
+}
+
+.promo h1 {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.64em;
+}
+
+.promo p.description {
+    width: 540px;
+    margin-top: 60px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.button {
+    margin-top: 65px;
+    padding: 20px 40px;
+    display: inline-block;
+    max-width: 225px;
+    text-align: center;
+}
+
+.promo .button a {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.about-me h2 {
+    margin-top: 112px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.about-me .description {
+    text-align: center;
+    margin: 50px auto 100px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 1.64em;
+    color: #727272;
+}
+
+.achievements {
+    padding: 100px 0;
+}
+
+.achievements ul {
+    display: inline-block;
+}
+
+.achievements ul li {
+    display: inline-block;
+}
+
+.achievements ul:not(:last-child) {
+    padding-right: 44px;
+}
+
+.achievements ul .indicators {
+    padding-left: 20px;
+    vertical-align: bottom;
+}
+
+.achievements ul .img img {
+    height: 50px;
+    width: 50px;
+}
+
+.achievements ul .indicators h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+}
+
+.achievements ul .indicators p {
+    font-size: 16px;
+    line-height: 1.64em;
+    color: #FFFFFF;
+    text-transform: lowercase;
+}
+
+.my-work h2 {
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;    
+}
+
+.my-work .description {
+    margin: 50px auto 57px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 1.64em;
+    text-align: center;
+    color: #727272;
+}
+
+.my-work .video video {
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+.my-work .video {
+    position: relative;
+}
+
+.my-work .play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.my-work .play img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 9px;
+}
+
+.footer h3 {
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer .copyrights {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
