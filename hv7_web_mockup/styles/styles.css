@@ -142,10 +142,6 @@ header nav ul li a.active {
     text-transform: lowercase;
 }
 
-.my-work{
-
-}
-
 .my-work h2 {
     padding-top: 100px;
     font-weight: 500;
@@ -169,25 +165,25 @@ header nav ul li a.active {
 }
 
 .my-work .video {
-position: relative;
+    position: relative;
 }
 
 .my-work .play {
-position: absolute;
-left: 50%;
-top: 50%;
-margin-top: -100px;
-margin-left: -40px;
-width: 100px;
-height: 100px;
-border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .my-work .play img {
-width: 40px;
-height: 40px;
-vertical-align: middle;
-padding-left: 9px;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    padding-left: 9px;
 }
 
 .footer h3 {
